@@ -16,12 +16,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-                count.append(1)
-            else:
-                count.append(0)
-        
-        print("total:", len(count))
-        print("correct:", sum(count))
         print("incorrect:", len(count) - sum(count))
         print("accuracy:", round((sum(count) / len(count)),4))
 
