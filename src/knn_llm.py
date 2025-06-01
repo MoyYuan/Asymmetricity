@@ -16,8 +16,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-        print("incorrect:", len(count) - sum(count))
-        print("accuracy:", round((sum(count) / len(count)),4))
+    print("incorrect:", len(count) - sum(count))
+    print("accuracy:", round((sum(count) / len(count)),4))
 
     with open('data/test_delex_text_nli.json') as input, \
         open(f'output/test_delex_text_nli_probe_knn.json', 'w') as output:
